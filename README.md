@@ -11,8 +11,11 @@ User-friendly GUI using Tkinter
 Installation & Setup
 1. Clone the Repository
 git clone https://github.com/YourGitHubUsername/Image-Encryption-Decryption.git
+
 cd Image-Encryption-Decryption
+
 2. Install Dependencies
+
 pip install opencv-python pillow numpy
 
 Usage
