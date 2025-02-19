@@ -2,11 +2,9 @@ import cv2
 import tkinter as tk
 from tkinter import filedialog, messagebox
 
-# Create the main window
 root = tk.Tk()
 root.title("Image Decryption")
 
-# ASCII Dictionary
 c = {i: chr(i) for i in range(255)}
 
 # Function for decryption
