@@ -1,4 +1,3 @@
-# encryption.py
 import cv2
 import tkinter as tk
 from tkinter import filedialog, messagebox
@@ -6,16 +5,13 @@ from PIL import Image, ImageTk
 import numpy as np
 import os
 
-# Create the main window
 root = tk.Tk()
 root.title("Image Encryption")
 
-# Global variables
 img = None
 password = None
 msg_length = None
 
-# ASCII Dictionary
 d = {chr(i): i for i in range(255)}
 
 # Function to load an image
@@ -28,7 +24,6 @@ def load_image():
         img_pil = Image.fromarray(img_rgb)
         img_tk = ImageTk.PhotoImage(img_pil)
         
-        # Show the image in the window
         img_label.config(image=img_tk)
         img_label.image = img_tk
 
